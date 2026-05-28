@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'com.gradleup.shadow' version '9.4.1' apply false
+    id 'com.gradleup.shadow' version '9.4.2' apply false
 }
 
 subprojects {
@@ -30,9 +30,9 @@ subprojects {
     }
 
     dependencies {
-        compileOnly 'io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT'
+        compileOnly 'io.papermc.paper:paper-api:26.1.2.build.66-stable'
         implementation 'org.bstats:bstats-bukkit:3.2.1'
-        implementation 'com.google.code.gson:gson:2.13.2'
+        implementation 'com.google.code.gson:gson:2.14.0'
     }
 
     compileJava {
